@@ -21,8 +21,8 @@ resource  "aws_security_group" "roboshop-all" {
 
 ingress  {
     description = "Allow all ports"
-    from_port =0
-    to_port =0
+    from_port = 0
+    to_port = 0
     protocol = "tcp"
     cidr_block =["0.0.0.0/0"]
 }
